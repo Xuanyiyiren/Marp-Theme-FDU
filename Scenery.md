@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: UCASSce
+theme: FDUBlue
 paginate: true
 ---
 
@@ -13,10 +13,11 @@ _paginate: false
 <br/>
 <br/>
 
-
+#
+#
 # 汇报题目 h1样式
 ## 副标题 h2样式
-**BeWater  2021-12-10**
+**openFudan  2023-03-29**
 
 
 ---
@@ -37,7 +38,7 @@ _paginate: false
 _paginate: false 
 -->
 
-![bg left:55% ](./images/bg5.jpg)
+![bg left:55% ](./images/bg4.jpg)
 # 目 录
 
 ###### 1 Slide 概述
@@ -67,7 +68,7 @@ _paginate: false
 _paginate: false 
 -->
 
-![bg left:55% ](./images/bg6.jpg)
+![bg left:55% ](./images/bg5.jpg)
 # 目 录
 
 ###### 1 Slide 概述
@@ -87,11 +88,19 @@ _paginate: false
 **环境：**
 - 系统：Win10
 - 软件：VsCode 插件：Marp
-- theme：自定义主题 UCASSce ，基于官方uncover主题修改
-  
+- theme：自定义主题 FDUBlue ，基于uncover和UCASSce主题修改
+
 **特征：**
-- 背景选用果壳风景，每页上方标题栏基于Marp header格式进行修改而成。
+- 背景选用复旦校园风景，每页上方标题栏基于Marp header格式进行修改而成。
 - 首尾页和目录页图片基于背景得到，首尾页可根据文字内容在本页修改标题样式，目录页可根据文字内容对图片进行大小位置调整
+
+<style scoped>
+section{
+  background-image:url('images/bgd.png');
+  background-size:cover;
+  position: absolute;
+  }
+</style>
 
 ---
 <!-- _header: 2 文字展示 -->
@@ -103,7 +112,13 @@ _paginate: false
 *斜体文字*
 ~~删除线~~
 
-
+<style scoped>
+section{
+  background-image:url('images/bgd.png');
+  background-size:cover;
+  position: absolute;
+  }
+</style>
 ---
 <!--_header: 3 代码展示 -->
 
@@ -120,6 +135,13 @@ import torch
 def Net()
 
 ```
+<style scoped>
+section{
+  background-image:url('images/bgd.png');
+  background-size:cover;
+  position: absolute;
+  }
+</style>
 ---
 <!--_header: 3 代码展示 -->
 
@@ -136,10 +158,17 @@ int main(
 )
 
 ```
+<style scoped>
+section{
+  background-image:url('images/bgd.png');
+  background-size:cover;
+  position: absolute;
+  }
+</style>
 ---
 <!--_header: 4 公式展示 -->
 
-行内公式 $123$
+行内公式 $SUFE^{nb}$
 
 行间公式：
 
@@ -154,7 +183,13 @@ D(x) = \begin{cases}
 $$
 
 注意：行间公式的编号适配不是很好，加编号会排版错乱
-
+<style scoped>
+section{
+  background-image:url('images/bgd.png');
+  background-size:cover;
+  position: absolute;
+  }
+</style>
 ---
 <!--_header: 5 表格展示 -->
 
@@ -162,36 +197,69 @@ $$
 |  ----  | ----  |--- |
 | 单元格  | 单元格 |单元格|
 | 单元格  | 单元格 |单元格|
-
+<style scoped>
+section{
+  background-image:url('images/bgd.png');
+  background-size:cover;
+  position: absolute;
+  }
+</style>
 ---
 <!--_header: 6 图片展示 -->
 ### 普通图片
 图片滤镜命令
 
-![img w:500px](images/photo.png)![img w:300px](images/bg3.jpg)|
+![img w:500px](images/photo.png)![img w:400px](images/bg7.jpg)|
 
-
+<style scoped>
+section{
+  background-image:url('images/bgd.png');
+  background-size:cover;
+  position: absolute;
+  }
+</style>
 ---
 
 <!--_header: 6 图片展示 -->
-### 背景图片
 
-![bg contain](images/bg.png)
 
+![bg w:1000px](images/bg.png)
+
+<style scoped>
+section{
+  background-image:url('images/bgd.png');
+  background-size:cover;
+  position: absolute;
+  }
+</style>
 ---
 <!--_header: 7 其它展示 -->
-一些表情
+## 表情
 
-:+1: :-1: :smile: :heart: :cry: :sob: :a: :b: :angry: :grin: :tongue: :ru: :us: :cn:
+:cn: 🥚 🥚 :+1:  &#x1F601;
 
+<style scoped>
+section{
+  background-image:url('images/bgd.png');
+  background-size:cover;
+  position: absolute;
+  }
+</style>
 ---
+
 <style scoped>   
+    section{
+        background-image:url('images/bgd.png');
+        background-size:cover;
+        position: absolute;
+    }
+
     h3 {
         text-align:center;
         margin-bottom: 50px;
     }
 </style>
-### 一些参考& 进一步阅读
+## 参考
 
 > Marp 官方文档 [link](https://marpit.marp.app/markdown)
 > 分栏显示  [link](https://github.com/marp-team/marp/discussions/192)
@@ -199,6 +267,7 @@ $$
 > CAI Marp详细教程博客 [link](https://caizhiyuan.gitee.io/categories/skills/20200730-marp.html#%E5%8A%9F%E8%83%BD)
 > theme gaia 源代码 [link](https://github.com/marp-team/marp-core/blob/main/themes/gaia.scss)
 > theme uncover 源代码 [link](https://github.com/marp-team/marp-core/blob/main/themes/uncover.scss)
+> Marp-Theme-UCAS 源代码 [link](https://github.com/BeWaterMyFriend7/Marp-Theme-UCAS)
 
 ---
 <style scoped>
@@ -215,12 +284,14 @@ $$
 _paginate: false 
 -->
 
-![bg vertical w:1300px](images/bg4.jpg)
+![bg vertical w:1300px](images/bg6.jpg)
 <br/>
 <br/>
 <br/>
 
+#
+#
+#
 # 请各位老师批评指正
-**BeWater 2021-12-10**
-![img w:400px](images/logo.png)
+**openFudan  2023-03-29**
 
