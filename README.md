@@ -5,7 +5,7 @@
 > 如何使用Markdown做PPT?本仓库是利用Marp实现的复旦主题markdown Slides
 
 
-如果你想自定义Marp主题，可以看一下这篇教程 [link](https://zhuanlan.zhihu.com/p/449668027)
+如果你想自定义Marp主题，可以看一下这篇教程 [Link](https://zhuanlan.zhihu.com/p/449668027)
 
 ## File structure
 
