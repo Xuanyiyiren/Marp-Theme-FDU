@@ -20,7 +20,7 @@ Marp
   |__ themes
   |     |__FDUBlue.css //FDUBlue主题文件
   |__FDUBlue.md        //FDUBlue主题对应的md文件
-  |__FDUBlue-Clean.md        //FDUBlue.md的简洁版，以方便二次创作
+  |__FDUBlue-Clean.md  //FDUBlue.md的简洁版，以方便二次创作
 ```
 
 
