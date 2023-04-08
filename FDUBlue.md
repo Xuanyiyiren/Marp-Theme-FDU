@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: FDUBlue
-paginate: true
+paginate: false
 ---
 
 <!--
@@ -33,9 +33,7 @@ _paginate: false
     }
 
 </style>
-<!--
-_paginate: false 
--->
+
 
 ![bg left:55% ](./images/bg4.jpg)
 # 目 录
@@ -63,9 +61,7 @@ _paginate: false
     }
 
 </style>
-<!--
-_paginate: false 
--->
+
 
 ![bg left:55% ](./images/bg5.jpg)
 # 目 录
@@ -277,9 +273,7 @@ section{
 
 </style>
 
-<!--
-_paginate: false 
--->
+
 
 ![bg vertical w:1300px](images/bg6.jpg)
 <br/>

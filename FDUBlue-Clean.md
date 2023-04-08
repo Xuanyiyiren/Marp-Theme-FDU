@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: FDUBlue
-paginate: true
+paginate: false
 ---
 
 <!--
@@ -32,9 +32,7 @@ _paginate: false
     }
 
 </style>
-<!--
-_paginate: false 
--->
+
 
 ![bg left:55% ](./images/bg4.jpg)
 # 目 录
@@ -62,9 +60,7 @@ _paginate: false
     }
 
 </style>
-<!--
-_paginate: false 
--->
+
 
 ![bg left:55% ](./images/bg5.jpg)
 # 目 录
@@ -80,9 +76,7 @@ _paginate: false
 
 ---
 <!-- _header: 1 -->
-<!--
-_paginate: false 
--->
+
 
 <style scoped>
 section{
@@ -94,9 +88,7 @@ section{
 </style>
 ---
 <!-- _header: 2 -->
-<!--
-_paginate: false 
--->
+
 
 <style scoped>
 section{
@@ -107,9 +99,7 @@ section{
 </style>
 ---
 <!--_header: 3 -->
-<!--
-_paginate: false 
--->
+
 
 <style scoped>
 section{
@@ -120,9 +110,7 @@ section{
 </style>
 ---
 <!--_header: 4 -->
-<!--
-_paginate: false 
--->
+
 
 <style scoped>
 section{
@@ -133,9 +121,7 @@ section{
 </style>
 ---
 <!--_header: 5 -->
-<!--
-_paginate: false 
--->
+
 
 <style scoped>
 section{
@@ -146,9 +132,7 @@ section{
 </style>
 ---
 <!--_header: 6 -->
-<!--
-_paginate: false 
--->
+
 
 <style scoped>
 section{
@@ -159,9 +143,7 @@ section{
 </style>
 ---
 <!--_header: 7 -->
-<!--
-_paginate: false 
--->
+
 
 <style scoped>
 section{
@@ -173,9 +155,7 @@ section{
 ---
 
 <!--_header: 8 -->
-<!--
-_paginate: false 
--->
+
 
 <style scoped>
 section{
@@ -187,9 +167,7 @@ section{
 
 ---
 <!--_header: 参考 -->
-<!--
-_paginate: false 
--->
+
 
 <style scoped>   
     section{
@@ -217,9 +195,7 @@ _paginate: false
 
 </style>
 
-<!--
-_paginate: false 
--->
+
 
 ![bg vertical w:1300px](images/bg6.jpg)
 <br/>
